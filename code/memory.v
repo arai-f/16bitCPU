@@ -16,7 +16,7 @@ module instruction_memory (
 
     // Initial Construct
     initial begin
-        $readmemb("../assembler/test5_ml.txt", memory, 0, `MEM_WORD-1);
+        $readmemb("../assembler/test.txt", memory, 0, `MEM_WORD-1);
     end
 
     // Assign Ports
